@@ -142,10 +142,9 @@ For this project, your grade will consist of a combination of general setup and 
 - Content: An error message indicating that the question parameter is missing from the request.
 
 # Video Showing Working Applicaion: 
-- As the original video is over 3 minutes long, we have provided a sped up (1.5x) version to satisfy the requirements. However, the original video will be included also. 
+- Attatched below is the link to a video review I made of the project. It includes an overview of the codebase and a demo of the API.
+- To view the video, click the link and select "view raw". The video will be displayed in mp4 format.
 
-3 minute video: https://github.com/fiifi-dev/summative-project-1-group-16/blob/master/3%20minute%20video%20-%201.5%20speed.mp4
-
-5 minute video: https://github.com/fiifi-dev/summative-project-1-group-16/blob/master/5%20min%20video%20-%201.0%20speed.mp4
+Video Link: https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-1-Morris-Riley/Netflix%20SP1.mp4
 
 

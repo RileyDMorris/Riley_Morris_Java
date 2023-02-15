@@ -27,7 +27,7 @@ where last_name like 'W%';
 use northwind;
 select *
 from customers
-where postal_code like '55%';
+where postal_code like '55%'; -- I believe that postal code is the same as zip code
 
 -- Question 6: List all customers from zip codes that end with 0.
 use northwind;

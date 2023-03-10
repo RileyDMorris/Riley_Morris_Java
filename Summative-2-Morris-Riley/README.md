@@ -4,14 +4,13 @@
 ![Netflix](https://img.shields.io/badge/Netflix-E50914?style=for-the-badge&logo=netflix&logoColor=white)
 
 # Video Showing Working Applicaion: 
-- Attatched below is the link to a video review I made of the project. It includes an overview of the codebase and a demo of the API.
-- To view the video, click the link and select "view raw". The video will be displayed in mp4 format.
+- Attatched below is the link to a video review I made of the project. It includes a brief overview of the codebase and a demo of the API.
+- To view the video, click the link and select "view raw". The video will be downloaded in mp4 format.
 
-Video Link: https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-1-Morris-Riley/Netflix%20SP1.mp4
+Video Link: [https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-1-Morris-Riley/Netflix%20SP1.mp4](https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-2-Morris-Riley/Summative-2-Video.mp4)
 
 # REST API Project
-
-This project is a spring application that creates three API endpoints: a quote of the day, a definition of the day, and a magic 8-ball service. The quote endpoint returns a random quote upon a GET request. Similarly, the definition endpoint returns a random word and definition following a GET request. The 8-ball service takes in a question via a POST, and returns a magic 8-ball themed answer.
+This project is a spring application that creates three java objects books, authors, and publishers. It has three REST API endpoints (book, auhtor, publisher) and a database to store books, authors, and publishers. Each REST API has the ability to create, read, update, and delete instances of the class in the database. The project also implements GraphQL to allow users to search for each of the three objects by their id.
 
 
 ### User Stories Implemented:

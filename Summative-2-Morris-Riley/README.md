@@ -14,8 +14,7 @@ This project is a spring application that creates three java objects: books, aut
 
 Contributors
 
-    Robert Velasquez
-    Dickson Afful
+    Miguel Ramirez
     Riley Morris
 
 ### User Stories Implemented:

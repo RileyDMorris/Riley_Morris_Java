@@ -7,7 +7,7 @@
 - Attatched below is the link to a video review I made of the project. It includes a brief overview of the codebase and a demo of the API.
 - To view the video, click the link and select "view raw". The video will be downloaded in mp4 format.
 
-Video Link: [https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-1-Morris-Riley/Netflix%20SP1.mp4](https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-2-Morris-Riley/Summative-2-Video.mp4)
+Video Link: [Demo](https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-2-Morris-Riley/Summative-2-Video.mp4)
 
 # REST API Project
 This project is a spring application that creates three java objects books, authors, and publishers. It has three REST API endpoints (book, auhtor, publisher) and a database to store books, authors, and publishers. Each REST API has the ability to create, read, update, and delete instances of the class in the database. The project also implements GraphQL to allow users to search for each of the three objects by their id.

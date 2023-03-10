@@ -12,6 +12,11 @@ Video Link: [Demo](https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/S
 # REST API Project
 This project is a spring application that creates three java objects: books, authors, and publishers. It has three REST API endpoints (book, auhtor, publisher) and a database to store books, authors, and publishers. Each REST API has the ability to create, read, update, and delete instances of the class in the database. The project also implements GraphQL to allow users to search for each of the three objects by their id.
 
+Contributors
+
+    Robert Velasquez
+    Dickson Afful
+    Riley Morris
 
 ### User Stories Implemented:
 As an API user, I would like to create, read, update, and delete authors.  

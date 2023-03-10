@@ -10,7 +10,7 @@
 Video Link: [Demo](https://github.com/RileyDMorris/Riley_Morris_Java/blob/main/Summative-2-Morris-Riley/Summative-2-Video.mp4)
 
 # REST API Project
-This project is a spring application that creates three java objects books, authors, and publishers. It has three REST API endpoints (book, auhtor, publisher) and a database to store books, authors, and publishers. Each REST API has the ability to create, read, update, and delete instances of the class in the database. The project also implements GraphQL to allow users to search for each of the three objects by their id.
+This project is a spring application that creates three java objects: books, authors, and publishers. It has three REST API endpoints (book, auhtor, publisher) and a database to store books, authors, and publishers. Each REST API has the ability to create, read, update, and delete instances of the class in the database. The project also implements GraphQL to allow users to search for each of the three objects by their id.
 
 
 ### User Stories Implemented:

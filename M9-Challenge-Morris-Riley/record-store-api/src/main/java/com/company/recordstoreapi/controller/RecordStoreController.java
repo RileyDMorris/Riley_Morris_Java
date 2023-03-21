@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -38,7 +39,7 @@ public class RecordStoreController {
 
     @RequestMapping(value = "/records", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
-    public List<Record> getAllRecords() {
+    public List<Record> getAllRecords(Principal principal) {
 
         return recordList;
     }
@@ -47,7 +48,7 @@ public class RecordStoreController {
 
     @RequestMapping(value = "/records/{id}", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
-    public Record getRecordById(@PathVariable int id) {
+    public Record getRecordById(@PathVariable int id, Principal principal) {
         Record foundRecord = null;
 
         for(Record record : recordList) {
@@ -79,7 +80,7 @@ public class RecordStoreController {
 
     @RequestMapping(value = "/records/{id}", method = RequestMethod.DELETE)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public void deleteRecordById(@PathVariable int id) {
+    public void deleteRecordById(@PathVariable int id, Principal principal) {
         int index = -1;
 
         for(int i = 0; i < recordList.size(); i++) {

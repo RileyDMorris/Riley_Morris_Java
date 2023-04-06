@@ -1,4 +1,4 @@
-## Game Store Inventory (Netflix Bootcamp Final Project)
+# Game Store Inventory (Netflix Bootcamp Final Project)
 
 ![Netflix](https://img.shields.io/badge/Netflix-E50914?style=for-the-badge&logo=netflix&logoColor=white)
 
